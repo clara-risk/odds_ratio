@@ -87,7 +87,7 @@ df = df.sample(n=1000,random_state=42)
 # Now bin the data
 ```{r}
 ##install.packages('spdep')
-install.packages("classInt")
+#install.packages("classInt")
 library(classInt)
 library(dplyr)
 library(sp)
